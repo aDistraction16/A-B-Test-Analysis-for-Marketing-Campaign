@@ -87,7 +87,7 @@ A comprehensive Excel workbook containing:
   - Business recommendation
   - Key performance indicators
 
-![Dashboard Preview](outputs/dashboard_screenshot.png)
+![Dashboard Preview](outputs/dashboards/dashboard_screenshot.png)
 *Excel Dashboard showing key A/B test results and business recommendations*
 
 ### **Python Analysis**
