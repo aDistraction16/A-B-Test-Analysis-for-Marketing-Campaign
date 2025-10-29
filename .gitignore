@@ -1,0 +1,280 @@
+# A/B Test Analysis - Git Ignore File
+
+# ===========================================
+# Python
+# ===========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ===========================================
+# Data & Analysis Specific
+# ===========================================
+
+# Large datasets (uncomment if you want to exclude raw data)
+# data/00_raw/*.csv
+# data/01_cleaned/*.csv
+
+# Temporary analysis files
+*.tmp
+*.temp
+temp_*
+scratch_*
+
+# Excel files (temporary/working versions)
+~$*.xlsx
+~$*.xls
+*.xlsm
+
+# ===========================================
+# Jupyter & Analysis Tools
+# ===========================================
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# JupyterLab settings
+.jupyter/
+
+# VS Code settings (optional - uncomment if you don't want to share VS Code config)
+# .vscode/
+
+# PyCharm settings
+.idea/
+
+# ===========================================
+# Operating System
+# ===========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# Project Specific
+# ===========================================
+
+# Personal notes and drafts
+notes/
+drafts/
+personal_*.md
+*_draft.*
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# Configuration files with sensitive information
+config.py
+secrets.py
+.env.local
+.env.production
+
+# Output files that shouldn't be tracked (uncomment if desired)
+# outputs/visualizations/*.png
+# outputs/visualizations/*.jpg
+# outputs/visualizations/*.pdf
+
+# Large output files
+*.pickle
+*.pkl
+
+# Model files (if any ML models are created)
+*.model
+*.h5
+*.joblib
+
+# ===========================================
+# Documentation & Reports
+# ===========================================
+
+# LaTeX auxiliary files (if using LaTeX for reports)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# MS Office temporary files
+~$*
+
+# ===========================================
+# Git & Version Control
+# ===========================================
+
+# Git merge conflict files
+*.orig
+
+# ===========================================
+# Miscellaneous
+# ===========================================
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# node_modules (if any JavaScript tools are used)
+node_modules/
+
+# Optional: Exclude specific large files or sensitive data
+# specific_large_file.csv
+# sensitive_data/
